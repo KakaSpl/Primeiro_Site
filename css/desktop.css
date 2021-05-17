@@ -99,6 +99,8 @@
         margin: auto;
         justify-content: center;
         font-family: arial;
+	box-shadow: -5px -5px 20px  #52D9CB; 
+        background-image: url(../img/flores-casamento.png);
       }
     
     .card p {
