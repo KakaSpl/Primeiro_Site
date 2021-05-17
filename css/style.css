@@ -172,9 +172,8 @@ header {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-
     width: auto;
-    margin-top: 200px;
+    margin-top: 250px;
     padding: 16px;
     color: #0388A6;
     font-weight: bold;
