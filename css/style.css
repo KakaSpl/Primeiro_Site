@@ -110,7 +110,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
     padding: 30px;  
     /*background-image: linear-gradient(to top,white, #fac25b, #feac14e7,  white );  */
     background-image: linear-gradient(to top, white, #0388A6, #52D9CB, white);
@@ -149,7 +148,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     margin-top: 30px;
 }
 
