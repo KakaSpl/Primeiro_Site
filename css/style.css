@@ -130,13 +130,6 @@ header {
     width: 100%;
 }
 
-#animate__zoomInDown {
-    display: inline-block;
-    margin: 0 0.5rem;
-    animation: bounce;
-    animation-duration: 20s;
-}
-
 #servicos {
     display: flex;
     flex-direction: column;
