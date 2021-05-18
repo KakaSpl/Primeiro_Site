@@ -112,7 +112,7 @@ header {
     align-items: center;
     padding: 30px;  
     /*background-image: linear-gradient(to top,white, #fac25b, #feac14e7,  white );  */
-    background-image: linear-gradient(to top, white, #0388A6, #52D9CB, white);
+    background-image: linear-gradient(to top,  white, #0388A6, #52D9CB,white );
 }
 
 #sobre p {
@@ -134,7 +134,7 @@ header {
     display: inline-block;
     margin: 0 0.5rem;
     animation: bounce;
-    animation-duration: 20s;;
+    animation-duration: 20s;
 }
 
 #servicos {
@@ -148,11 +148,15 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
 }
 
 #servicos img {
     width: 100%;
+    box-shadow: -5px -5px 30px  #52D9CB;
+}
+
+#card {
+    background-image: url(../img/flores-casamento.png);
 }
 
 .card p {
