@@ -34,6 +34,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center; 
+    justify-content: space-between;
 }
 
 nav > a {
@@ -120,15 +121,14 @@ header {
     max-width: 1000px;
 }
 
-.container {
+.container div{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .container img {
-    width: 100%;
-    height: 75%;
+    width: 100%; 
 }
 
 #servicos {
@@ -164,15 +164,13 @@ header {
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-    text-align: justify;
    /* background-image: linear-gradient(to top,white, #fac25b, #feac14e7,  white );*/
    background-image: linear-gradient(to bottom,#52D9CB,white,#52D9CB);
 }  
  
 .gallery-container img {
     width: 100%;
-   /* height: 400px;*/
-    height:70%;
+    height: 65%; 
     position: relative;
     margin: auto;
   }
