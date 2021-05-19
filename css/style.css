@@ -126,10 +126,10 @@ header {
     align-items: center;
 }
 
-.container img {
+/*.container img {
     width: 100%;
     height: 75%;
-}
+}*/
 
 #servicos {
     display: flex;
