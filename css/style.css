@@ -120,11 +120,11 @@ header {
     max-width: 1000px;
 }
 
-/*.container div{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}*/
+}
 
 .container img {
     width: 100%;
