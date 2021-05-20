@@ -148,7 +148,7 @@ header {
     align-items: center;
 }
 
-#servicos img {
+#servicos div img {
     width: 90%;
     height: auto;
     max-width: 600px;
