@@ -1,7 +1,8 @@
 @media(min-width: 1200px){
     nav {
         flex-direction: row;
-        justify-content: space-around;
+        /*justify-content: space-around;*/
+        height: 100px;
     }
 
     nav ul {
@@ -25,7 +26,7 @@
 
     #slider {
         width: 100%;
-        height: 100vw;
+        height: 170vw;
         max-height: 350px;
         position: relative;
     }
@@ -36,9 +37,7 @@
         flex-direction: column;
         position: absolute;
         width: 100%;
-        height: 150%;
-        object-fit: cover;
-        transition: opacity 900ms;
+        height: 505px;
     }
 
     #slider img.selected {
@@ -46,8 +45,9 @@
     }
 
     #sobre {
-        margin-top: 250px;
+        margin-top: 200px;
         height: 178vh;
+        min-height: 800px;
         justify-content: center;
         /*padding: 150px 5px 0 5px; */  
     }
@@ -58,11 +58,11 @@
         margin-bottom: 50px;
     }
     
-    .container img {
-        max-width:800px;
-        max-height:400px;
-        width: 100%;
-        /*height: auto;*/
+    .container img { 
+        width: 90%;
+        height: 70vh;
+        max-width:1000px;
+        max-height:500px;
     }
 
     #servicos {
@@ -75,7 +75,7 @@
 
     #servicos h2 {
         text-align: center;
-        width: 100%;
+        width: 90%;
     }
 
     #servicos div {
@@ -85,7 +85,7 @@
     }
 
     #servicos div img {
-        width: 100%;
+        width: 40vw;
         box-shadow: -5px -5px 40px  #52D9CB;
     }
 
@@ -112,8 +112,7 @@
 
     #portfolio h2 {
         width: 100%;
-        text-align: center;
-        
+        text-align: center;      
     }
 
     .gallery-container {
@@ -121,6 +120,11 @@
         position: relative;
         margin: auto;
         padding: 10px, 5px;
+      }
+
+      .gallery-container img {
+          width: 60vw;
+          height: auto;
       }
        
       /* Hide the images by default */
