@@ -155,8 +155,8 @@ header {
 }
 
 .card p {
-    width: 60%;
-    max-width: 400px;
+    width: 90%;
+    max-width: 100px;
     text-align: center;
     font-size: 14px;
 }
