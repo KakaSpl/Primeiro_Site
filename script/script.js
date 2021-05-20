@@ -1,8 +1,15 @@
+/*
+Função para controlar transições de imagens no Slider
+*/
 let time = 3000,
     currentImageIndex = 0,
     imagens = document.querySelectorAll("#slider img")
     max = imagens.length;
 
+
+/*
+Função para controlar Galeria de fotos (#portfolio)
+*/    
 function nextImage() {
     imagens[currentImageIndex]
         .classList.remove("selected")
@@ -55,7 +62,9 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
 }
 
-//Get the button:
+/*
+Função para controlar botão de retorno ao topo da página
+*/
 mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button

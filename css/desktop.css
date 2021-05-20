@@ -1,7 +1,11 @@
-@media(min-width: 1200px){
+@media(min-width: 728px){
+    /*=============== 
+    Barra de Navegação Topo da página
+    ==================*/
     nav {
         flex-direction: row;
-        justify-content: space-around;
+        /*justify-content: space-around;*/
+        height: 100px;
     }
 
     nav ul {
@@ -16,16 +20,19 @@
     .nav-links.nav-active li {
         opacity: 1;
         text-transform: uppercase;
-      }
+    }
 
-    header {      
+    /*=============== 
+    Carrossel de Imagem
+    ==================*/
+    #topo {      
         height: 60vh;
         justify-content: center;
     }
 
     #slider {
         width: 100%;
-        height: 100vw;
+        height: 170vw;
         max-height: 350px;
         position: relative;
     }
@@ -36,20 +43,34 @@
         flex-direction: column;
         position: absolute;
         width: 100%;
-        height: 150%;
-        object-fit: cover;
-        transition: opacity 900ms;
+        height: 510px;
+    }
+
+    @media (max-width: 900px) {
+        #slider img {
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 100%;
+            height: 500px;
+            max-height: 470px;
+        }
     }
 
     #slider img.selected {
         opacity: 1;
     }
 
+    /*=============== 
+    Sobre a Empresa
+    ==================*/
     #sobre {
-        margin-top: 250px;
+        margin-top: 200px;
         height: 178vh;
+        min-height: 800px;
         justify-content: center;
-        /*padding: 150px 5px 0 5px; */  
+        padding: 50px 10px;   
     }
 
     .container {
@@ -58,19 +79,21 @@
         margin-bottom: 50px;
     }
     
-    .container img {
-        max-width:800px;
-        max-height:400px;
-        width: 100%;
-        /*height: auto;*/
+    .container img { 
+        width: 90%;
+        height: 70vh;
+        max-width:1000px;
+        max-height:500px;
     }
 
+    /*=============== 
+    Serviços
+    ==================*/
     #servicos {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;    
         margin:  auto;
-       /* padding: 200px 0;*/
     }
 
     #servicos h2 {
@@ -79,13 +102,16 @@
     }
 
     #servicos div {
+        width: 100%;
+        max-width: 800px;
         flex-grow: 1;
         flex-basis: 150px;
         padding: 0 10px;    
     }
 
-    #servicos div img {
-        width: 100%;
+    #servicos img {
+        width: 40vw;
+        height: 60vh;
         box-shadow: -5px -5px 40px  #52D9CB;
     }
 
@@ -95,46 +121,54 @@
         margin: auto;
         justify-content: center;
         font-family: arial;      
-        /*background-image: url(../img/flores-casamento.png);*/
       }
     
     .card p { 
+        text-align: center;
         font-size: 12px;
         width: 100%;
     }
 
+    /*=============== 
+    Portfólio de fotos
+    ==================*/
     #portfolio  {
         width: 100%;
         height: auto;
-        justify-content: center;
-        /*padding: 0 0 200px 0;   */   
+        justify-content: center;  
     }
 
     #portfolio h2 {
         width: 100%;
-        text-align: center;
-        
+        text-align: center;      
     }
 
     .gallery-container {
         width: 100%;
+        height: auto;
         position: relative;
         margin: auto;
         padding: 10px, 5px;
       }
+
+      .gallery-container img {
+          width: 100%;
+          height: 50%;
+          max-height: 420px;
+      }
        
-      /* Hide the images by default */
+      /* Oculta imagens dentro da galeria*/
       .mySlides {
         display: none;
       }
       
-      /* Next & previous buttons */
+      /*Botão de navegação entre fotos*/
       .prev, .next {
         cursor: pointer;
         position: absolute;
         top: 50%;
         width: auto;
-        margin-top: -22px;
+        margin-top: -2%;
         padding: 16px;
         color: black;
         font-weight: bold;
@@ -158,32 +192,29 @@
         background-color: rgba(0,0,0,0.8);
       }
       
-      /* Caption text */
+      /* Legenda das fotos da galeria */
       .text {
         color: black;
         padding: 8px 12px;
         width: 100%;
         text-align: center;
       }
-      
-      .imgslide {
-        width: 100%;
-      }
 
-    #contato {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 800px;
-        margin: 0 auto;
-        padding-bottom: 100px;
-    }
+        /*=============== 
+        Contato
+        ==================*/
+        #contato {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 800px;
+            margin: 0 auto;
+            padding-bottom: 100px;
+        }
 
-    #contato h2, #contato p {
-        width: 100%;
-    }   
-
-    
+        #contato h2, #contato p {
+            width: 100%; 
+        }     
 }
 
 /*Código esta ocultando o menu em dispositivos móveis*/
@@ -192,7 +223,5 @@
             position: fixed;
             width: 100%;
             left: -100%;
-        }
-    }
-
-    
+        }   
+}

@@ -11,14 +11,14 @@ p {
 }
 
 h1, h2 {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
-    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    font-size: 40px;
     text-align: center;
+    color: #000000;
 }
 
 h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: 600;
 }
@@ -28,9 +28,10 @@ h3 {
     padding-left: 40px;
 }
 
-/*Barra de Navegação*/
-
-nav{
+/*=============== 
+Barra de Navegação
+==================*/
+nav {
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -50,7 +51,7 @@ nav ul {
     align-items: center;
     list-style: none;
     padding: 0;
-    width: 100%;
+    width: 90%;
 }
 
 nav ul li {
@@ -60,8 +61,8 @@ nav ul li {
 
 nav ul li a {
     display: inline-block;
-    padding: 10px 0;
     width: 100%;
+    font-weight: 600;
     text-decoration: none;
     color: black;
 }
@@ -70,9 +71,10 @@ a:hover {
     color: #0388A6;
 }
 
-/*Cabeçalho*/
-
-header {
+/*=============== 
+Carrossel de Imagem
+==================*/
+#topo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,11 +84,10 @@ header {
     padding: 2px 0 45px 0;
 }
 
-/*Carrossel de Imagem*/
 
 #slider {
     width: 100%;
-    height: 130vw;
+    height: 70vh;
     max-height: 600px;
     position: relative;
 }
@@ -97,7 +98,7 @@ header {
     flex-direction: column;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 70vh;
     object-fit: cover;
     transition: opacity 900ms;
 }
@@ -106,13 +107,14 @@ header {
     opacity: 1;
 }
 
-/*Sobre a Empresa*/
+/*=============== 
+Sobre a Empresa
+==================*/
 #sobre {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;  
-    /*background-image: linear-gradient(to top,white, #fac25b, #feac14e7,  white );  */
     background-image: linear-gradient(to bottom,#3A9EB5,white,#3A9EB5);
 }
 
@@ -120,6 +122,10 @@ header {
     text-align: center;
     margin-bottom: 2.5em;
     max-width: 1000px;
+}
+
+.container {
+    display: contents;   
 }
 
 .container div{
@@ -130,8 +136,13 @@ header {
 
 .container img {
     width: 100%; 
+    max-width: 400px;
+    height: auto;
 }
 
+/*=============== 
+Serviços
+==================*/
 #servicos {
     display: flex;
     flex-direction: column;
@@ -140,6 +151,8 @@ header {
 }
 
 #servicos div {
+    width: 100%;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,11 +160,8 @@ header {
 
 #servicos img {
     width: 100%;
+    height: auto;
     box-shadow: -5px -5px 30px  #3A9EB5;
-}
-
-#card {
-    background-image: url(../img/flores-casamento.png);
 }
 
 .card p {
@@ -159,33 +169,34 @@ header {
     font-size: 10px;
 }
 
-/*Portfólio de Eventos Realizados*/
+/*=============== 
+Portfólio de fotos
+==================*/
 #portfolio {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     text-align: center;
     padding-top: 20px;
-   /* background-image: linear-gradient(to top,white, #fac25b, #feac14e7,  white );*/
-   background-image: linear-gradient(to bottom,#3A9EB5,white,#3A9EB5);
+    background-image: linear-gradient(to bottom,#3A9EB5,white,#3A9EB5);
 }  
  
 .gallery-container img {
-    width: 100%;
-    height: 65%; 
+    width: 90%;
+    max-width: 400px;
+    height: auto;
     position: relative;
     margin: auto;
   }
-
+ /*Botão de navegação entre fotos*/
 .prev, .next {
     cursor: pointer;
     position: absolute;
     width: auto;
-    margin-top: 28%;
-    padding: 16px;
+    margin-top: 20%;
+    padding: 10px;
     color: #0388A6;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     background-color: rgba(0,0,0,0.1);
@@ -200,7 +211,10 @@ header {
     left: 0;
     border-radius: 3px 0 0 3px;
   }
-/*Contato*/
+
+/*=============== 
+Contato
+==================*/
 #contato {
     display: flex;
     flex-direction: column;
@@ -214,7 +228,9 @@ header {
     text-decoration: none;
 }
 
-/*Rodapé*/
+/*=============== 
+Rodapé
+==================*/
 footer {
     display: flex;
     padding-top: 10px;
@@ -224,7 +240,9 @@ footer {
     box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.459);
 }
 
-/*Botão Retornar para o inicio*/
+/*=============== 
+Botão Retornar para o inicio
+==================*/
 #myBtn {
     display: none; 
     position: fixed; 
