@@ -128,11 +128,11 @@ Sobre a Empresa
     display: contents;   
 }
 
-.container div{
+/*.container div{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+   align-items: center;
+}*/
 
 .container img {
     width: 100%; 
@@ -166,7 +166,7 @@ Serviços
 
 .card p {
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 /*=============== 
