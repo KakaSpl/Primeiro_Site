@@ -142,6 +142,7 @@ header {
 }
 
 #servicos div {
+    max-width:400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +156,6 @@ header {
 }
 
 .card p { 
-    width: 70%;
     text-align: center;
     font-size: 14px;
 }
