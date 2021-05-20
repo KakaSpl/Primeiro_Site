@@ -173,7 +173,7 @@ header {
  
 .gallery-container img {
     width: 90%;
-    height: 40vh; 
+    height: auto; 
     position: relative;
     margin: auto;
   }
