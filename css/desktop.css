@@ -84,8 +84,9 @@
         padding: 0 10px;    
     }
 
-    #servicos div img {
+    #servicos img {
         width: 40vw;
+        height: 60vh;
         box-shadow: -5px -5px 40px  #52D9CB;
     }
 
@@ -168,10 +169,6 @@
         padding: 8px 12px;
         width: 100%;
         text-align: center;
-      }
-      
-      .imgslide {
-        width: 100%;
       }
 
     #contato {
