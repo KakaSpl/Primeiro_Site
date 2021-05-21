@@ -106,7 +106,8 @@
 
     #servicos div {
         width: 100%;
-        max-width: 800px;
+        max-width: 900px;
+        height: auto;
         flex-grow: 1;
         flex-basis: 150px;
         padding: 0 10px;    
