@@ -217,11 +217,11 @@
         }     
 }
 
-/*Código esta ocultando o menu em dispositivos móveis*/
+/*Código esta ocultando o menu em dispositivos móveis
 @media (max-width: 858px){
         ul{
             position: fixed;
             width: 100%;
             left: -100%;
         }   
-}
+}*/
