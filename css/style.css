@@ -34,7 +34,7 @@ Barra de Navegação
 ==================*/
 nav {
     display: flex;
-    flex-direction: row/*column*/;
+    flex-direction: column;
     align-items: center; 
     justify-content: space-between;
 }
