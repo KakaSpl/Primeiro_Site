@@ -26,6 +26,7 @@ h3 {
 #logo {
     width: 14em; 
     padding-left: 40px;
+    margin-bottom: -38px;
 }
 
 /*=============== 
@@ -47,11 +48,11 @@ nav > a {
 
 nav ul {
     display: inline-block;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     list-style: none;
     padding: 0;
-    width: 90%;
+    width: 100%;
 }
 
 nav ul li {
@@ -62,7 +63,7 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     width: 100%;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     color: black;
 }
