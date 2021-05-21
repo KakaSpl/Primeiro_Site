@@ -2,7 +2,7 @@
     /*=============== 
     Barra de Navegação Topo da página
     ==================*/
-    nav {
+   nav {
         flex-direction: row;
         justify-content: space-around;
         height: 100px;
