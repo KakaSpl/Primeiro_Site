@@ -120,8 +120,8 @@
     }
 
     .card {
-        max-width: 500px;
-        min-height: 600px;
+        width: 100%;
+        height: auto;
         margin: auto;
         justify-content: center;
         font-family: arial;      
