@@ -148,6 +148,7 @@ Serviços
 #servicos div {
     width: 100%;
     max-width: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
