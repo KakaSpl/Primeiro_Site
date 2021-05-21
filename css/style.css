@@ -39,13 +39,6 @@ nav {
     justify-content: space-between;
 }
 
-/*nav > a {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    
-}*/
-
 nav ul {
     display: flex;
     flex-direction: row;
@@ -53,6 +46,7 @@ nav ul {
     list-style: none;
     padding: 0;
     width: 100%;
+    margin-top: -25px;
 }
 
 nav ul li {
