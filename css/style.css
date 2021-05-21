@@ -158,7 +158,7 @@ Serviços
 #servicos img {
     width: 100%;
     height: auto;
-    filter: drop-shadow(0 0 25px rgb(99, 97, 97));
+    filter: drop-shadow(0 0 35px rgb(99, 97, 97));
 }
 
 .card p {
@@ -178,18 +178,18 @@ Portfólio de fotos
 }  
  
 .gallery-container img {
-    width: 90%;
-    max-width: 400px;
-    height: auto;
+    width: 100%;
+    height: 60vh;
     position: relative;
     margin: auto;
+    object-fit: contain;
   }
  /*Botão de navegação entre fotos*/
 .prev, .next {
     cursor: pointer;
     position: absolute;
     width: auto;
-    margin-top: 20%;
+    margin-top: 25%;
     padding: 10px;
     color: #0388A6;
     font-weight: bold;
