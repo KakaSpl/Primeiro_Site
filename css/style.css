@@ -1,7 +1,9 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: sans-serif;
-    background-color: white;
+    background-color: #f3f3f3;
 }
 
 p {
@@ -14,7 +16,7 @@ h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
     font-size: 40px;
     text-align: center;
-    color: #000000;
+    color: #0388A6;
 }
 
 h3 {
@@ -26,6 +28,7 @@ h3 {
 #logo {
     width: 14em; 
     padding-left: 40px;
+    margin: 0;
 }
 
 /*=============== 
@@ -38,20 +41,14 @@ nav {
     justify-content: space-between;
 }
 
-nav > a {
-    text-decoration: none;
-    color: black;
-    font-weight: 800;
-    font-size: 16px;
-}
-
 nav ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     list-style: none;
     padding: 0;
-    width: 90%;
+    width: 100%;
+    margin-top: -25px;
 }
 
 nav ul li {
@@ -62,7 +59,8 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     width: 100%;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     text-decoration: none;
     color: black;
 }
@@ -115,7 +113,7 @@ Sobre a Empresa
     flex-direction: column;
     align-items: center;
     padding: 30px;  
-    background-image: linear-gradient(to bottom,#3A9EB5,white,#3A9EB5);
+    background-image: linear-gradient(to bottom,rgb(189, 189, 189),#f2f2f2,rgb(189, 189, 189));
 }
 
 #sobre p {
@@ -128,11 +126,11 @@ Sobre a Empresa
     display: contents;   
 }
 
-/*.container div{
+.container div{
     display: flex;
     flex-direction: column;
-   align-items: center;
-}*/
+    align-items: center;
+}
 
 .container img {
     width: 100%; 
@@ -147,7 +145,6 @@ Serviços
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
 }
 
 #servicos div {
@@ -161,12 +158,12 @@ Serviços
 #servicos img {
     width: 100%;
     height: auto;
-    box-shadow: -5px -5px 30px  #3A9EB5;
+    filter: drop-shadow(0 0 25px rgb(99, 97, 97));
 }
 
 .card p {
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 /*=============== 
@@ -177,7 +174,7 @@ Portfólio de fotos
     flex-direction: column;
     text-align: center;
     padding-top: 20px;
-    background-image: linear-gradient(to bottom,#3A9EB5,white,#3A9EB5);
+    background-image: linear-gradient(to bottom,rgb(189, 189, 189),#f2f2f2,rgb(189, 189, 189));
 }  
  
 .gallery-container img {
