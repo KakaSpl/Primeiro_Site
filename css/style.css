@@ -56,7 +56,6 @@ nav ul {
 }
 
 nav ul li {
-    flex-direction: row;
     text-align: center;
     width: 100%;
 }
