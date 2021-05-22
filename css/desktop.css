@@ -31,13 +31,11 @@
     #topo {      
         height: 60vh;
         justify-content: center;
-    }
-
-    #slider {
-        width: 100%;
-        height: 170vw;
-        max-height: 350px;
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 170px 0;
+        margin-bottom: 8%;
     }
 
     #slider img {
@@ -47,6 +45,7 @@
         position: absolute;
         width: 100%;
         height: 87vh;
+        max-height: 850px;
     }
 
     @media (max-width: 900px) {
@@ -56,8 +55,8 @@
             flex-direction: column;
             position: absolute;
             width: 100%;
-            height: 500px;
-            max-height: 470px;
+            height: auto;
+            max-height: 450px;
         }
     }
 
@@ -69,24 +68,22 @@
     Sobre a Empresa
     ==================*/
     #sobre {
-        margin-top: 200px;
         width: 100%;
         height: auto;
         justify-content: center;
-        padding: 0;   
+        padding: 20px 0;   
     }
 
     .container {
         display: flex;   
         align-items: center;
-        margin-bottom: 50px;
+        padding: 0 20px;
     }
     
     .container img { 
-        width: 90%;
+        width: 100%;
         height: 70vh;
-        max-width:1000px;
-        max-height:500px;
+        max-width: 600px;
     }
 
     /*=============== 
@@ -95,8 +92,7 @@
     #servicos {
         display: grid;
         place-items: center;
-        width: 100%;
-        align-items: center;    
+        width: 100%;    
     }
 
     #servicos h2 {
@@ -105,30 +101,37 @@
     }
 
     #servicos div {
-       /* width: 100%;
-        max-width: 800px;
-        height: auto;*/
-        flex-grow: 1;
-        flex-basis: 150px;
+        width: 100%;
+        max-width: 100vw;
+        height: auto;
         padding: 20px 0;    
     }
 
     #servicos img {
         width: 50vw;
         height: 70vh;
-	object-fit: cover;
+	    object-fit: cover;
     }
 
-    .card {
-        width: 100%;
-        height: auto;
-        justify-content: center;      
-      }
+    #casamento {
+        background-image: url(../img/cherry-juice-pattern.png);
+    }
+
+    #aniversario {
+        background-image: url(../img/orange-juice-pattern.png);
+    }
+
+    #marcas {
+        background-image: url(../img/pineapple-juice-pattern2.png);
+    }
+
+    #feiras {
+      background-image: url(../img/indian-tea-glass.png);
+    }
     
     .card p { 
         text-align: center;
         font-size: 0.8em;
-        width: 100%;
     }
 
     /*=============== 
@@ -154,7 +157,7 @@
 
       .gallery-container img {
         width: 100%;
-        height: 100vh;  
+        height: 80vh;  
         object-fit: scale-down; 
       }
        
@@ -169,8 +172,7 @@
         position: absolute;
         top: 50%;
         width: auto;
-        margin-top: -2%;
-        padding: 16px;
+        padding: 10px;
         color: black;
         font-weight: bold;
         font-size: 18px;
@@ -196,7 +198,7 @@
       /* Legenda das fotos da galeria */
       .text {
         color: black;
-        padding: 12px 12px;
+        padding: 0 0;
         width: 100%;
         text-align: center;
       }
@@ -208,9 +210,8 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
-            max-width: 800px;
             margin: 0 auto;
-            padding-bottom: 100px;
+            padding-bottom: 80px;
         }
 
         #contato h2, #contato p {
