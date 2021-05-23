@@ -98,6 +98,7 @@ Carrossel de Imagem
     position: absolute;
     width: 100%;
     height: 70vh;
+    max-height: 60vh;
     object-fit: cover;
     transition: opacity 900ms;
 }
