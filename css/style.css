@@ -141,15 +141,14 @@ Serviços
     align-items: center;
 }
 
-#servicos div {
+/*#servicos div {
     width: 100%;
-    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}*/
 
-#servicos img {
+/*#servicos img {
     width: 100%;
     height: auto;
     filter: drop-shadow(0 0 10px #1FB58F);
@@ -158,7 +157,7 @@ Serviços
 .card p {
     text-align: center;
     font-size: 0.8em;
-}
+}*/
 
 /*=============== 
 Portfólio de fotos
@@ -228,7 +227,7 @@ footer {
     padding-top: 10px;
     flex-direction: column;
     align-items: center;
-    background-color: #1fb58f;
+    background-color: #18C6CC;
     box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.459);
 }
 

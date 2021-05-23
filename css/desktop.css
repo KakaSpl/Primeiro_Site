@@ -89,7 +89,7 @@
     /*=============== 
     Serviços
     ==================*/
-    #servicos {
+    /*#servicos {
         display: grid;
         place-items: center;
         width: 100%;    
@@ -132,7 +132,7 @@
     .card p { 
         text-align: center;
         font-size: 0.8em;
-    }
+    }*/
 
     /*=============== 
     Portfólio de fotos
