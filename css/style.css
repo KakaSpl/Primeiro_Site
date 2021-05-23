@@ -87,7 +87,7 @@ Carrossel de Imagem
 #slider {
     width: 100%;
     height: 70vh;
-    max-height: 600px;
+    max-height: 60vh;
     position: relative;
 }
 
