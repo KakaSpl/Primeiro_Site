@@ -1,4 +1,4 @@
-@media(min-width: 728px){
+@media(min-width: 620px){
     /*=============== 
     Barra de Navegação Topo da página
     ==================*/
@@ -28,36 +28,18 @@
     /*=============== 
     Carrossel de Imagem
     ==================*/
-    #topo {      
-        height: 60vh;
+    #topo #slider{             
         justify-content: center;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 10px 0 170px 0;
-        margin-bottom: 8%;
+        height: 90vh;
     }
 
-    #slider img {
-        opacity: 0;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
+    #slider img {    
         width: 100%;
         height: 87vh;
-        max-height: 850px;
-    }
-
-    @media (max-width: 900px) {
-        #slider img {
-            opacity: 0;
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            width: 100%;
-            height: auto;
-            max-height: 450px;
-        }
+        max-height: 150vh;
     }
 
     #slider img.selected {
