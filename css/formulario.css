@@ -5,6 +5,11 @@
 	padding: 0;
 }
 
+body {
+ background: url(../img/pineapple-juice-pattern2.png);
+}
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -20,7 +25,6 @@ h1 {
     flex-direction: column;
     align-items: center;
     background-color: #f3f3f3;
-    background: url(../img/pineapple-juice-pattern2.png);
 }
 
 fieldset {
