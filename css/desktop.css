@@ -1,4 +1,4 @@
-@media(min-width: 728px){
+@media(min-width: 620px){
     /*=============== 
     Barra de Navegação Topo da página
     ==================*/
@@ -12,12 +12,17 @@
         flex-direction: row;
         width: 100%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 24px;
+        font-size: 16px;
         font-weight: 600;
 	    padding: 0;
 	    border-radius: 3px;
         text-transform: uppercase;
         margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 0.9em;
+        font-weight: 400;
     }
 
     .nav-links.nav-active li {
@@ -28,36 +33,18 @@
     /*=============== 
     Carrossel de Imagem
     ==================*/
-    #topo {      
-        height: 60vh;
+    #topo #slider{             
         justify-content: center;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 10px 0 170px 0;
-        margin-bottom: 8%;
+        height: 90vh;
     }
 
-    #slider img {
-        opacity: 0;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
+    #slider img {    
         width: 100%;
         height: 87vh;
-        max-height: 850px;
-    }
-
-    @media (max-width: 900px) {
-        #slider img {
-            opacity: 0;
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            width: 100%;
-            height: auto;
-            max-height: 450px;
-        }
+        max-height: 150vh;
     }
 
     #slider img.selected {
@@ -82,57 +69,9 @@
     
     .container img { 
         width: 100%;
-        height: 70vh;
-        max-width: 600px;
+        max-width:350px;
+        height: auto;  
     }
-
-    /*=============== 
-    Serviços
-    ==================*/
-    /*#servicos {
-        display: grid;
-        place-items: center;
-        width: 100%;    
-    }
-
-    #servicos h2 {
-        text-align: center;
-        width: 100%;
-    }
-
-    #servicos div {
-        width: 100%;
-        max-width: 100vw;
-        height: auto;
-        padding: 20px 0;    
-    }
-
-    #servicos img {
-        width: 50vw;
-        height: 70vh;
-	    object-fit: cover;
-    }
-
-    #casamento {
-        background-image: url(../img/cherry-juice-pattern.png);
-    }
-
-    #aniversario {
-        background-image: url(../img/orange-juice-pattern.png);
-    }
-
-    #marcas {
-        background-image: url(../img/pineapple-juice-pattern2.png);
-    }
-
-    #feiras {
-      background-image: url(../img/indian-tea-glass.png);
-    }
-    
-    .card p { 
-        text-align: center;
-        font-size: 0.8em;
-    }*/
 
     /*=============== 
     Portfólio de fotos
@@ -201,6 +140,7 @@
         padding: 0 0;
         width: 100%;
         text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
       }
 
         /*=============== 

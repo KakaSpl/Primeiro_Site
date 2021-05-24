@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Evento</title>
+    <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <h1>Formulário de Evento</h1>
+
+    <div id="formulario">
+    <form action="#" method="post">
+        <fieldset>
+            <fieldset class="grupo">
+                <div class="campo" >
+                    <label for="nome" style="width: 32vw;">Nome</label>
+                    <input type="text" id="nome" name="nome"  value="">
+                </div>
+            </fieldset>	
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email"  value="">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone"  value="">
+            </div>
+            
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade"  value="">
+                </div>
+                <div class="campo">
+                    <label for="estado">Estado</label>
+                    <input name="estado" id="estado" type="text" style="width: 2em" value="">
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="mensagem">Conte alguns detalhes sobre o evento que deseja realizar<label>
+                <textarea rows="6" id="mensagem" name="mensagem"></textarea>
+            </div>
+            <button class="botao submit" type="submit" name="submit">Enviar</button>
+            
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
+
+<body cz-shortcut-listen="true"></body>
