@@ -1,4 +1,8 @@
 @media(min-width: 620px){
+  h1, h2 {
+    font-size: 40px;
+  }
+
     /*=============== 
     Barra de Navegação Topo da página
     ==================*/
@@ -62,15 +66,14 @@
     }
 
     .container {
-        display: flex;   
-        align-items: center;
-        padding: 0 20px;
+      display: flex;   
+      align-items: center;
+      padding: 0 20px;
     }
     
     .container img { 
-        width: 100%;
-        max-width:350px;
-        height: auto;  
+      width: 80vw;
+      height: auto;  
     }
 
     /*=============== 
