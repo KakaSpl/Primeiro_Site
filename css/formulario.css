@@ -5,11 +5,6 @@
 	padding: 0;
 }
 
-body {
- background: url(../img/pineapple-juice-pattern2.png);
-}
-
-
 h1 {
     display: flex;
     justify-content: center;
@@ -24,7 +19,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0,0,0,0.0);
+    background-color: #f3f3f3;
+    background: url(../img/pineapple-juice-pattern2.png);
 }
 
 fieldset {
@@ -52,7 +48,6 @@ body, input, select, textarea, button {
 
 .campo label {
     margin-bottom: 0.2em;
-	color: #666;
 	display: block;
 }
 
@@ -77,10 +72,6 @@ fieldset.grupo .campo {
 
 .campo select option {
 	padding-right: 1em;
-}
-
-.campo input:focus, .campo select:focus, .campo textarea:focus {
-	background: #FFC;
 }
 
 .campo label.checkbox {
