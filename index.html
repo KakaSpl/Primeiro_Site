@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">  
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/menu-responsivo.css">
     <link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon/favicon-16x16.png" type="image/x-icon">
     <link rel="shortcut icon" href="img/favicon/android-chrome-192x192.png" type="image/x-icon">
@@ -17,22 +18,27 @@
 </head>
 <body>
     <audio src="audio/Som de Brinde Efeitos Sonoros MP3 baixar grátis - Pikbest.mp3" autoplay></audio>
-    <nav>
+
+    <header id="header">
         <img id='logo'src="img\elite_bar_sombra.png" alt="Elite Bar">
-                           
-        <ul class="menu" id="menu">
-            <li class="menu-item"><a href="#sobre" class="menu-item-action">Sobre</a></li>
-            <li class="menu-item"><a href="#servicos" class="menu-item-action">Serviços</a></li>
-            <li class="menu-item"><a href="#portfolio" class="menu-item-action">Portfólio</a></li>
-            <li class="menu-item"><a href="#contato" class="menu-item-action">Contato</a></li>
-            <li class="menu-item"><a href="https://www.instagram.com/elite.bar/" target="_blank"><img src="img/icones/icon_colorido_instagram-elite-bar.png" alt="Instagram Elite Bar" class="menu-item-action"></a></li>
-        </ul>
-    </nav>
+        <nav id="nav">            
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+            </button>                
+            <ul class="menu" id="menu" role="menu">
+                <li class="menu-item"><a href="#sobre" class="menu-item-action">Sobre</a></li>
+                <li class="menu-item"><a href="#servicos" class="menu-item-action">Serviços</a></li>
+                <li class="menu-item"><a href="#portfolio" class="menu-item-action">Portfólio</a></li>
+                <li class="menu-item"><a href="#contato" class="menu-item-action">Contato</a></li>
+                <li class="menu-item"><a href="https://www.instagram.com/elite.bar/" target="_blank"><img src="img/icones/icon_colorido_instagram-elite-bar.png" alt="Instagram Elite Bar" class="menu-item-action"></a></li>
+            </ul>
+        </nav>
+    </header>
     <section id="topo">
         <div id="slider">
-            <img class="selected" src="img/bar casamento2.jpg" alt="bar de casamento elite bar">
-            <img class="selected" src="img/drinks2.jpg" alt="drink Moscou mule">
-            <img class="selected" src="img/equipe2.jpg" alt="bartender prepando drink">
+            <img class="selected" src="img/bar casamento2.jpg" alt="">
+            <img class="selected" src="img/drinks2.jpg" alt="" >
+            <img class="selected" src="img/equipe2.jpg" alt="" style="object-position: top;">
         </div>
     </section>
     <h2>SOMOS A <strong>ELITE BAR</strong></h2>

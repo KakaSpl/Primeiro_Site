@@ -1,38 +1,7 @@
-@media(min-width: 620px){
+@media(min-width: 600px){
   h1, h2 {
     font-size: 40px;
   }
-
-    /*=============== 
-    Barra de Navegação Topo da página
-    ==================*/
-   nav {
-        flex-direction: row;
-        justify-content: space-around;
-        height: 100px;
-    }
-
-    nav ul {
-        flex-direction: row;
-        width: 100%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-	    padding: 0;
-	    border-radius: 3px;
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    nav ul li a {
-        font-size: 0.9em;
-        font-weight: 400;
-    }
-
-    .nav-links.nav-active li {
-        opacity: 1;
-        text-transform: uppercase;
-    }
 
     /*=============== 
     Carrossel de Imagem
