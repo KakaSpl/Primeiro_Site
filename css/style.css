@@ -87,7 +87,7 @@ Sobre a Empresa
 }
 
 .container {
-    display: contents;   
+    display: /*contents;*/flex; 
 }
 
 .container img {
