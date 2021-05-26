@@ -60,7 +60,7 @@ a:hover {
     background: #33CCD1;
   }
   #nav.active #menu {
-    height: calc(100vh - 70px);
+    height: 275px;
     visibility: visible;
     overflow-y: auto;
   }
