@@ -57,6 +57,7 @@ Carrossel de Imagem
     flex-direction: column;
     position: absolute;
     width: 100%;
+    height: inherit;
     object-fit: cover;
     transition: opacity 900ms;
 }
