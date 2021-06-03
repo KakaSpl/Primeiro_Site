@@ -180,12 +180,8 @@ Contato
 ==================*/
 #contato {
     display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
-.sociais:hover {
-    transform: scale(1.5);
+    justify-content: space-between;
+    margin: 10% 10%;
 }
 
 /*=============== 
